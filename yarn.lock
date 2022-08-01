@@ -2288,13 +2288,13 @@ eslint-config-hypothesis@2.5:
   resolved "https://registry.yarnpkg.com/eslint-config-hypothesis/-/eslint-config-hypothesis-2.5.0.tgz#bc9c281b07923666696c5df1c1f96f3cbace266b"
   integrity sha512-3KiknU/zX117ggOhDetdbnqn+RupdIsp4XXl9kn8NICc/1ObVY3dt802L01A//ajCGHgiYu5/vR2afsuChlnhw==
 
-eslint-plugin-mocha@^10.0.3:
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mocha/-/eslint-plugin-mocha-10.0.3.tgz#a4ecf2351828e852156316b7e936e7336fc0ff5e"
-  integrity sha512-9mM7PZGxfejpjey+MrG0Cu3Lc8MyA5E2s7eUCdHXgS4SY/H9zLuwa7wVAjnEaoDjbBilA+0bPEB+iMO7lBUPcg==
+eslint-plugin-mocha@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mocha/-/eslint-plugin-mocha-10.1.0.tgz#69325414f875be87fb2cb00b2ef33168d4eb7c8d"
+  integrity sha512-xLqqWUF17llsogVOC+8C6/jvQ+4IoOREbN7ZCHuOHuD6cT5cDD4h7f2LgsZuzMAiwswWE21tO7ExaknHVDrSkw==
   dependencies:
     eslint-utils "^3.0.0"
-    ramda "^0.27.1"
+    rambda "^7.1.0"
 
 eslint-plugin-react-hooks@^4.4.0:
   version "4.4.0"
@@ -4494,10 +4494,10 @@ querystring@^0.2.0:
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
   integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
 
-ramda@^0.27.1:
-  version "0.27.1"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
-  integrity sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==
+rambda@^7.1.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/rambda/-/rambda-7.2.0.tgz#b24a106513fac6aa734c3f86ac873377e55cd201"
+  integrity sha512-xW2ZcQh+AtRHdIN0RUix+gAwyfAeMBZA6SnLSblw1+YRqUx+eV4Eppg/ayDdrvSs6KegZYHYtSF6+I86Z5Owqg==
 
 randombytes@^2.1.0:
   version "2.1.0"
