@@ -6,13 +6,12 @@
 #
 attrs==20.3.0
     # via jsonschema
-bcrypt==3.2.0
+bcrypt==4.0.1
     # via paramiko
 certifi==2021.10.8
     # via requests
 cffi==1.15.0
     # via
-    #   bcrypt
     #   cryptography
     #   pynacl
 chardet==4.0.0
@@ -51,7 +50,6 @@ requests==2.25.1
     #   docker-compose
 six==1.15.0
     # via
-    #   bcrypt
     #   dockerpty
     #   jsonschema
     #   paramiko
