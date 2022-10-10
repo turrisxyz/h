@@ -16,7 +16,7 @@ attrs==20.2.0
     #   hypothesis
     #   jsonschema
     #   pytest
-bcrypt==3.2.0
+bcrypt==4.0.1
     # via -r requirements/requirements.txt
 billiard==3.6.4.0
     # via
@@ -31,9 +31,7 @@ certifi==2021.10.8
     #   -r requirements/requirements.txt
     #   sentry-sdk
 cffi==1.15.0
-    # via
-    #   -r requirements/requirements.txt
-    #   bcrypt
+    # via -r requirements/requirements.txt
 chameleon==3.8.1
     # via
     #   -r requirements/requirements.txt
@@ -244,7 +242,6 @@ sentry-sdk==0.17.6
 six==1.15.0
     # via
     #   -r requirements/requirements.txt
-    #   bcrypt
     #   bleach
     #   click-repl
     #   elasticsearch-dsl
