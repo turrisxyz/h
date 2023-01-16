@@ -70,6 +70,8 @@ elasticsearch==6.8.2
     #   elasticsearch-dsl
 elasticsearch-dsl==6.3.1
     # via -r requirements/requirements.txt
+exceptiongroup==1.1.0
+    # via pytest
 factory-boy==3.2.1
     # via -r requirements/functests.in
 faker==8.1.2
@@ -173,8 +175,6 @@ psycogreen==1.0.2
     # via -r requirements/requirements.txt
 psycopg2==2.9.3
     # via -r requirements/requirements.txt
-py==1.10.0
-    # via pytest
 pycparser==2.20
     # via
     #   -r requirements/requirements.txt
@@ -217,7 +217,7 @@ pyrsistent==0.17.3
     # via
     #   -r requirements/requirements.txt
     #   jsonschema
-pytest==7.1.1
+pytest==7.2.1
     # via
     #   -r requirements/functests.in
     #   pytest-reverse
